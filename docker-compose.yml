@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  simpsons-app:
+    build: .
+    container_name: simpsons-directorio
+    ports:
+      - "8080:80"
+    environment:
+      - APP_NAME=Directorio de Springfield
+      - APP_VERSION=1.0.0
+    restart: unless-stopped
