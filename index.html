@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Directorio de personajes de Los Simpson usando la API pública thesimpsonsapi.com">
+    <title>Directorio de Springfield</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <h1>🍩 Directorio de Springfield</h1>
+            <p class="subtitulo">Explorá los personajes de Los Simpson</p>
+        </div>
+    </header>
+
+    <!-- Barra de búsqueda -->
+    <section class="busqueda-section">
+        <div class="busqueda-wrapper">
+            <input
+                type="text"
+                id="buscador"
+                class="buscador"
+                placeholder="🔍 Buscar personaje por nombre..."
+                autocomplete="off"
+            >
+        </div>
+    </section>
+
+    <!-- Contenedor de personajes -->
+    <main>
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Cargando personajes...</p>
+        </div>
+        <div id="personajes" class="contenedor"></div>
+        <div id="sin-resultados" class="sin-resultados" style="display: none;">
+            <p>😕 No se encontraron personajes con ese nombre.</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>TP N°1 — Git y Docker | Ingeniería de Software</p>
+        <p class="footer-autor">Elsener Juan María — 2026</p>
+        <p class="footer-api">Datos obtenidos de <a href="https://thesimpsonsapi.com/" target="_blank" rel="noopener">The Simpsons API</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
