@@ -111,6 +111,24 @@ docker-compose down
 - ✅ **Variables de entorno** en `docker-compose.yml`
 - ✅ **Docker Compose** para orquestación
 - ✅ **Archivo `.gitignore`** configurado
+- ✅ **Publicación automática en Docker Hub mediante GitHub Actions**
+
+### Evidencia de Integración Continua (CI/CD)
+**1. Automatización Exitosa en GitHub Actions**
+
+<div align="center">
+    <img width="886" height="244" alt="image" src="https://github.com/user-attachments/assets/41a1c6b3-f765-4f51-95e9-3e5266e285ec" />
+</div>
+
+**2. Imagen publicada en la nube (Docker Hub)**
+<div align="center">
+     <img width="886" height="252" alt="image" src="https://github.com/user-attachments/assets/0337fbe8-d53d-4b73-bfd1-3d637b3b27c8" />
+</div>
+
+**3. Imagen disponible para uso local (Pull)**
+<div align="center">
+     <img width="886" height="399" alt="image" src="https://github.com/user-attachments/assets/992ce9cc-64da-4747-b760-810fc69fec16" />
+</div>
 
 ## 👤 Autor
 **Elsener Juan María** — Ingeniería de Software — 2026 - ISTEA
