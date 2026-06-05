@@ -3,7 +3,7 @@
 ## 📝 Descripción
 Aplicación web que consume la API pública de [The Simpsons API](https://thesimpsonsapi.com/) para mostrar un directorio interactivo de personajes de Los Simpson. Incluye búsqueda en tiempo real por nombre.
 
-Este proyecto fue desarrollado como Trabajo Práctico N°1 de **Ingeniería de Software**, con el objetivo de practicar el uso de **Git**, **GitHub** y **Docker**.
+Este proyecto fue desarrollado como Trabajo Práctico de **Ingeniería de Software**, con el objetivo de practicar el uso de **Git**, **GitHub** y **Docker**.
 
 ## 🛠️ Tecnologías Utilizadas
 - **HTML5** — Estructura de la página.
@@ -80,6 +80,32 @@ docker rm simpsons-directorio
 # Con Docker Compose
 docker-compose down
 ```
+**`## 📸 Capturas de Pantalla`**
+### 1. Repositorio publicado
+
+<div align="center">
+   <img width="591" height="282" alt="image" src="https://github.com/user-attachments/assets/a07dac63-db07-42df-ada7-266e6d2aa9cc" />
+</div>
+
+### 2. Construcción de la Imagen (Docker Desktop)
+
+<div align="center">
+   <img width="591" height="130" alt="image" src="https://github.com/user-attachments/assets/191dd21a-b912-44b5-91c9-84c91a8d8370" />
+</div>
+
+### 3. Ejecución del Contenedor (Docker Desktop)
+
+<div align="center">
+   <img width="591" height="155" alt="image" src="https://github.com/user-attachments/assets/727081bb-c1c7-47c1-8a0e-c46b88541c5f" />
+</div>
+
+### 4. Aplicación Funcionando
+
+<div align="center">
+   <img width="591" height="293" alt="image" src="https://github.com/user-attachments/assets/9b7b3cfd-a190-4d4b-8382-d27e004a570d" />
+   <br><br>
+   <img width="591" height="295" alt="image" src="https://github.com/user-attachments/assets/7ce853da-9799-4791-8ba2-9f0d0016b475" />
+</div>
 
 ## 🌟 Bonus Implementados
 - ✅ **Variables de entorno** en `docker-compose.yml`
@@ -87,4 +113,4 @@ docker-compose down
 - ✅ **Archivo `.gitignore`** configurado
 
 ## 👤 Autor
-**Elsener Juan María** — Ingeniería de Software — 2026
+**Elsener Juan María** — Ingeniería de Software — 2026 - ISTEA
