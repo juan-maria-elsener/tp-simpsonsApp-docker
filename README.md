@@ -80,6 +80,17 @@ docker rm simpsons-directorio
 # Con Docker Compose
 docker-compose down
 ```
+**`## 📸 Capturas de Pantalla`**
+1) Repositorio publicado
+   <img width="591" height="282" alt="image" src="https://github.com/user-attachments/assets/a07dac63-db07-42df-ada7-266e6d2aa9cc" />
+2) Construcción de la Imagen (Docker Desktop)
+   <img width="591" height="130" alt="image" src="https://github.com/user-attachments/assets/191dd21a-b912-44b5-91c9-84c91a8d8370" />
+3) Ejecución del Contenedor
+   <img width="591" height="155" alt="image" src="https://github.com/user-attachments/assets/727081bb-c1c7-47c1-8a0e-c46b88541c5f" />
+4) Aplicación Funcionando
+   <img width="591" height="293" alt="image" src="https://github.com/user-attachments/assets/9b7b3cfd-a190-4d4b-8382-d27e004a570d" />
+   <img width="591" height="295" alt="image" src="https://github.com/user-attachments/assets/7ce853da-9799-4791-8ba2-9f0d0016b475" />
+
 
 ## 🌟 Bonus Implementados
 - ✅ **Variables de entorno** en `docker-compose.yml`
